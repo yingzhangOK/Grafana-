@@ -1,0 +1,19 @@
+<svg width="640" height="480" xmlns="http://www.w3.org/2000/svg">
+ <style type="text/css">.st0{fill:#FDC300;}
+	.st1{fill:#F18700;}</style>
+
+ <g>
+  <title>background</title>
+  <rect x="-1" y="-1" width="642" height="482" id="canvas_background" fill="none"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <g stroke="null" id="svg_1" transform="rotate(-13 308.5280761718747,236.3583068847655) ">
+   <g stroke="null" id="svg_2">
+    <polygon stroke="null" class="st0" points="308.5280432701111,236.35830748081207 495.74139165878296,61.79030668735504 121.31476354598999,61.79030668735504 236.12269353866577,168.84382688999176 121.31476354598999,410.9263006448746 " id="svg_3"/>
+    <polygon stroke="null" class="st1" points="308.5280432701111,236.35830748081207 495.74139165878296,61.79030668735504 495.34133672714233,410.9263006448746 380.5333228111267,303.8727728128433 121.31476354598999,410.9263006448746 " id="svg_4"/>
+   </g>
+   <text stroke="#000" fill="#000000" stroke-width="0" x="253.975004" y="103.907445" id="svg_19" font-size="24" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve" transform="matrix(35.33357898583803,0,0,11.535091375946525,-9354.900846708175,-883.6132853673927) "/>
+  </g>
+ </g>
+</svg>
