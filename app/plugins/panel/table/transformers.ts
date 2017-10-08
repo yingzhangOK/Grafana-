@@ -6,6 +6,8 @@ import flatten from '../../../core/utils/flatten';
 import TimeSeries from '../../../core/time_series2';
 import TableModel from '../../../core/table_model';
 
+import { py2hz } from './china_city_mapping';
+
 var transformers = {};
 
 transformers['timeseries_to_rows'] = {
@@ -43,7 +45,7 @@ transformers['timeseries_to_columns'] = {
 
     for (var i = 0; i < data.length; i++) {
       var series = data[i];
-      model.columns.push({text: series.target});
+      model.columns.push({text: py2hz(series.target)});
 
       for (var y = 0; y < series.datapoints.length; y++) {
         var dp = series.datapoints[y];
@@ -93,7 +95,7 @@ transformers['timeseries_aggregations'] = {
     }
 
     for (i = 0; i < panel.columns.length; i++) {
-      model.columns.push({text: panel.columns[i].text});
+      model.columns.push({text: py2hz(panel.columns[i].text)});
     }
 
     for (i = 0; i < data.length; i++) {
